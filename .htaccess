@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule media/support.html  /support.html [R=301,L]
+RewriteRule media/about.html  /about.html [R=301,L]
+
