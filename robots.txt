@@ -1,2 +1,17 @@
-User-Agent: *
-Disallow: 
+# robots.txt
+# @url: https://metro.sharemydoc.org
+# @generator: SPIP 2.1.2 [16730]
+# @template: squelettes-dist/robots.txt.html
+
+User-agent: *
+Disallow: /local/
+Disallow: /ecrire/
+Disallow: /extensions/
+Disallow: /lib/
+Disallow: /plugins/
+Disallow: /prive/
+Disallow: /squelettes-dist/
+Disallow: /squelettes/
+
+
+Sitemap: https://metro.sharemydoc.org/sitemap.xml

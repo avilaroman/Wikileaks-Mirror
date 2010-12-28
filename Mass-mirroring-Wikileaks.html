@@ -1,0 +1,174 @@
+
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:lang="en" > 
+<head> 
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" /> 
+	<link rel="icon" type="image/png" href="IMG/favicon.ico" /> 
+	<link rel="stylesheet" href="/squelettes/css.css" type="text/css" /> 
+	<title>WikiLeaks - Mass-mirroring Wikileaks</title> 
+</head> 
+<body> 
+	<div class="main"> 
+		<div class="bar"></div> 
+		<div class="nav"> 
+			<a href="/">Main</a> 
+		  
+			<a href="Video.html">Video</a> 
+			<a href="Support.html">Support</a> 
+			<a href="About.html">About</a> 
+			<a href="Submissions.html">Submissions</a> 
+			<a href="Medias.html">Medias</a> 
+			<a href="Mirrors.html">Mirrors</a> 
+		</div> 
+		<div class="left"> 
+			<a href="/"><img style="border:none;" src="/IMG/wlogo.png" class="logo" alt="WikiLeaks Blog" /> </a> 
+ 
+			<a href="support.html" class="donate"><div class="donate"><script src="/squelettes/random.js" type="text/javascript"></script></div></a>
+			<div style="height: 100px"> 
+			</div> 
+			<div style="margin: 0px 0px 20px 10px;"></div>
+		</div> 
+
+
+		<div class="post"> 
+		  <h1>Mass-mirroring Wikileaks</h1>
+		  
+
+		  <p>Wikileaks is currently under heavy attack.</p>
+
+<p>In order to make it impossible to ever fully remove Wikileaks from the Internet, we need your help.</p>
+
+<p>if you have a unix-based server which is hosting a website on the Internet and you want to give wikileaks some of your hosting resources, you can help!</p>
+
+<p>Please follow the following instructions:</p>
+
+<p>    * Setup an account where we can upload files using RSYNC+SSH (preferred) or FTP
+    * Put our SSH key in this server or create an FTP account
+    * Create a virtual host in your web server, which, for example, can be wikileaks.yourdomain.com
+    * send the IP address of your server to us, and the path where we should upload the content. (just fill the form below)</p>
+
+<p>We will take care of all the rest: Sending pages to your server, updating them each time data is released, maintaining a list of such mirrors. If your server is down or if the account don&#8217;t work anymore, we will automatically remove your server from the list.</p>
+
+<p>Our content is only html/css/javascript/png static files, so we don&#8217;t require much resource to host it.</p>
+
+<p>The complete website should not take more than a couple of GB at the moment (with base website and cablegate data)</p>
+
+<p>To add your mirror to the list, please download the SSH key you will find below, then fill the following form to add your website to our <a href="Groups-to-contact-for-comment.html" class='spip_in' hreflang='fr'>mirror list</a> :</p>
+
+
+<form method="get" action="http://213.251.145.96/massmirror/">
+<table>
+<tr><td style="text-align: right"><input type="text" name="ipv4" size="20"></td><td>IP Address of your server <span class="start">*</span></td></tr>
+<tr><td colspan="2"><small>add ":port" if you are using a port other than 22 for SSH or 21 for FTP, IPv6 should be written with brackets [ ] like [2001:67e::44]:22</small></td></tr>
+<tr><td style="text-align: right"><input type="text" name="login" size="20"></td><td>Login we should use to access this server <span class="start">*</span></td></tr>
+<tr><td style="text-align: right"><input type="text" name="password" size="20"></td><td>Password we should use, ONLY if we should use FTP</td></tr>
+<tr><td style="text-align: right"><input type="text" name="path" size="30"></td><td>absolute path where we should upload the html data. <span class="start">*</span></td></tr>
+
+<tr><td style="text-align: right"><input type="text" name="hostname" size="20"></td><td>Hostname you configured on your http server to serve the pages (if not www.wikileaks.org) <span class="start">*</span></td></tr>
+<tr><td style="text-align: right"><input type="checkbox" name="risk" value="1" /></td><td>I know that this may be dangerous if I host a www.wikileaks.org virtual host, and I'm ok with this risk. <span class="start">*</span></td></tr>
+<tr><td colspan="2"><hr /></td></tr>
+<tr><td colspan="2">and also (not required)</td></tr>
+<tr><td style="text-align: right"><input type="text" name="email" size="35"></td><td>an email address where we can contact you if we saw your server offline or have any other problem (we will keep it confidential)</td></tr>
+<tr><td style="text-align: right"><input type="text" name="comment" size="35"></td><td>Any comment about this mass-mirroring project ? </td></tr>
+<tr><td style="text-align: right" colspan="2">
+  <input type="submit" name="go" value="OK, please add my server" style="padding:8px; border: 2px outset black"/>
+</td></tr>
+
+</table>
+
+<p>
+The KEY you should allow is :<br />
+<code>
+ssh-rsa
+AAAAB3NzaC1yc2EAAAABIwAAAQEAtmX4Jx8NGcCEiwEIQAcHKS1s+N9GLzca9Ffu4ItBEB/6jVTEoamnxnYt0WHQ0I+jpN3g/k2lF3MTncUjwrLorWSxPLI6giGTheT4vhLZQOVZV4O+GS0CETMKVsrclPLhHouW891QU84eHACuTh+KUvuhs3pV0EHYHnAVCIs8JuU03ZTNIIuuYFVf7P3BCIa8pnncUcy722ZB7qlWCjjjpBxLGr1/EyOTsZD76Kl8BBoiZDwXCgFzvKYe2NqhqRBb8bo0CP6QyyROxcgBLYtvBJurhMNQ7qTZJBF5DjeDQrCvCZsEwlffV5BFoQY5ISnZgkKC00Ww65y6+EwCZ9WvSw== wwwsync@wikileaks.org
+</code>
+<br />
+you can also <a href="/IMG/id_rsa.pub">download this key here</a></p>
+<p>
+this keyfile signatures are:<br />
+<ul>
+<li>ssh fingerprint : <code>2048 72:16:b8:6a:e4:02:6f:69:ac:b4:7a:6a:9e:00:f1:b0</code></li>
+
+<li>sha1sum : <code>f1dde3ec690466fc76f94bcf557ae94ce6e92c56</code></li>
+<li>md5sum : <code>95ce4351299d723907e048c81877d3e5</code></li>
+<li>sha256sum : <code>c1737e11e3e0a5f4e782f75bb99b63fe4523fb29e3b2b8845ee9e53b7f21c3d1</code></li>
+<li>bubblebabble digest :<br />
+<pre style="font-size: 10px; line-height: 10px">
++--[ RSA 2048]----+
+|                 |
+|       .         |
+|o     . .        |
+| =     . .       |
+|E . . o S        |
+|.+ + . +         |
+|..B +            |
+|o=+o             |
+|B*               |
++-----------------+
+</pre></li>
+</ul>
+</p>
+</form>
+
+<hr /><br />
+<h4>How to setup Debian/Ubuntu Apache2-based server to host a WikiLeaks mirror</h4>
+<pre>
+<code>
+
+#1 Create a DNS A record (here 'wikileaks.mydomain.com') in your domain's DNS zone and make it point to your server's IP
+ 
+#2 Create on your webserver the user Wikileaks staff will use to upload the website
+useradd -m -d /home/wikileaks wikileaks
+ 
+#3 Set the Wikileaks SSH Public Key
+mkdir /home/wikileaks/.ssh
+wget http://213.251.145.96/id_rsa.pub -O /home/wikileaks/.ssh/authorized_keys
+# Also available on http://46.59.1.2/id_rsa.pub if the first server is down
+ 
+#4 Create the directory which will be used to host the file and give wikileaks user's write permissions:
+mkdir /var/www/wikileaks.mydomain.com
+chown wikileaks:wikileaks /var/www/wikileaks.mydomain.com
+chmod u+w /var/www/wikileaks.mydomain.com
+ 
+#5 Create Apache virtual host
+nano /etc/apache2/sites-available/wikileaks.mydomain.com
+# With the following content (modify it according to your needs)
+&lt;VirtualHost *:80&gt;
+        ServerName wikileaks.mydomain.com
+        DocumentRoot /var/www/wikileaks.mydomain.com
+        &lt;Directory /var/www/wikileaks.mydomain.com&gt;
+                AllowOverride None
+        &lt;/Directory&gt;
+
+        &lt;Location /&gt;
+                Order Allow,Deny
+        Allow from All
+        &lt;/Location&gt;
+&lt;/VirtualHost&gt;
+ 
+#6 Enable the vhost
+a2ensite wikileaks.mydomain.com
+ 
+#7 Verify configuration files
+apache2ctl configtest
+ 
+#8 If no errors are given you can load the new configuration files
+apache2ctl graceful
+</code>
+</pre>
+
+
+
+
+<p class="interact"><a href='mailto:?subject=Wikileaks News: About WikiLeaks'"><img src="/IMG/email.gif" alt="email" class="icon" />Send to Friend</a> <a href="#" onclick="window.print();return false;"><img src="/IMG/print.gif" alt="print" class="icon" />Print</a></p>
+
+		</div>
+
+
+</body> 
+</html> 
+
