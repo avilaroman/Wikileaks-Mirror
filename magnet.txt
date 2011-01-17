@@ -978,3 +978,52 @@ cablegate-201012282228.7z:
     magnet   : magnet:?xt=urn:btih:OVFLDVF3OH7ILDJ2RZE6DF5YCRBVEZZ5
 
 
+cablegate-201101021915.7z:
+    file size: 5657087
+    md5sum   : 94bfe5c2e28458fd2173df461409a7fc
+    sha256   : 8d427744fe6f16bdba7bfbb483b2d078676f7e977721111a2628b7141b806c85
+    magnet   : magnet:?xt=urn:btih:BMV3XRKCE2WBGD7SXDMT2LB2EE5OFUUC
+
+
+cablegate-201101040949.7z:
+    file size: 5660793
+    md5sum   : 0d7f0b768436dcbe119bc0a3f16c245a
+    sha256   : 28142786c569e9794ccd5739e0f864920f17caa5186fb5c19a4c7fd80ea73ca0
+    magnet   : magnet:?xt=urn:btih:4AGBYHSBDS4HGPAE5FMRYSWZNQ63N3EM
+
+
+cablegate-201101081029.7z:
+    file size: 5703067
+    md5sum   : 32ceaf68ea2bbd71dd501d16a9b52edb
+    sha256   : db0be2eaaf8bff79184d21c6ae64447abbf4cbb15b61f803e19a1eea813ad278
+    magnet   : magnet:?xt=urn:btih:B4QAWQ366KTM6LCYXQTELTKON4IK7MDA
+
+
+cablegate-201101121806.7z:
+    file size: 5737210
+    md5sum   : d52f31edbb196d356f9ac6705b181f10
+    sha256   : ab2e99ee8960fac00d1cc6fd0470df947cb4e0cd51f63c8dabfcc5ec6e1853a4
+    magnet   : magnet:?xt=urn:btih:TWD4TI7AQNSZ5HM3XV54NCPOITEF6WJE
+
+
+cablegate-201101130737.7z:
+    file size: 6439650
+    md5sum   : e2fe87b9be9fd740d36c1a36baf20506
+    sha256   : 75a91c3dd4be38e66259623704363ebddee3e258e2828e172a7824f509577a6b
+    magnet   : magnet:?xt=urn:btih:YIW2H4LCG2M6QD32LSQTXL5JSHPLJZCH
+
+
+cablegate-201101132206.7z:
+    file size: 6437439
+    md5sum   : 0ac08d6908d4a4957fa9a6d045bbeffe
+    sha256   : 3d6731a517c0788c153a133a4139f3d3f6681051d2b511cd5c9fd1dbdd0f7157
+    magnet   : magnet:?xt=urn:btih:KB7KHDJAK7VN5VA2OH3LM55GHEVZDAS2
+
+
+cablegate-201101161906.7z:
+    file size: 6476398
+    md5sum   : 02ab8982c5cc54461c732dadc070d589
+    sha256   : 1df3186abf877525620e8594c52cfa33cc86ba3948e55394b7e51d535984d389
+    magnet   : magnet:?xt=urn:btih:3W3WSDA6W7OCE4RIO6ZEZ46CVFBDC5R6
+
+
