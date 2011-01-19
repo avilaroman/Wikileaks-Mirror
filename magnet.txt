@@ -1027,3 +1027,10 @@ cablegate-201101161906.7z:
     magnet   : magnet:?xt=urn:btih:3W3WSDA6W7OCE4RIO6ZEZ46CVFBDC5R6
 
 
+cablegate-201101172227.7z:
+    file size: 6612177
+    md5sum   : bdf51f068dcd9222e102d892f6a65784
+    sha256   : a8f0e5344194e773394d4a7814c64d1da184d0ad3479e6f25524f1e4521dd220
+    magnet   : magnet:?xt=urn:btih:ZMADNLPDZ3LKAMXKVWHTLDMUK7HMR4VD
+
+
