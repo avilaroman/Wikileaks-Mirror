@@ -227,6 +227,9 @@ div.pick a {
 	
 	text-align: center;
 }
+div.pick a.fix {
+	width: auto;
+}
 
 span {
 	float: right;
